@@ -1,0 +1,109 @@
+/*************************************************************
+************************ GENERAL ****************************
+*************************************************************/
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin:0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    margin:0;
+    padding: 0;
+}
+#main-nav{
+    position: fixed;
+    height: 40px;
+    background: gray;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a{
+    color: honeydew;
+    text-decoration: none;
+    margin:0 20px;
+}
+.page{
+    height: 100vh;
+    padding-top: 40px;
+    border-bottom: 3px solid darkgreen;
+}
+/*************************************************************
+************************ QUOTE *******************************
+*************************************************************/
+#Quote{
+    height: 40px;
+    width: 100%;
+    padding-top: 40px;
+    margin: 0 30px;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+/*************************************************************
+************************ HOME *******************************
+*************************************************************/
+#home{
+    background-image: url(./images/morningSun.jpeg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    padding-top: 40px;
+}
+/*
+.home-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr;
+    grid-gap:5px ;
+    
+}
+.box {
+    height: 100px;
+    background: rgb(197, 197, 197);
+    color: white;
+    font-size: 25px;
+    padding:15px ;
+}
+.yellowbox{
+    height:100%;
+    background: rgb(173, 123, 153);
+    
+}
+#bigger{
+    grid-row: 2/3;
+}
+
+
+
+
+/*************************************************************
+************************ ABOUT *******************************
+*************************************************************/
+
+#about{
+    background-image: url(./images/forestHorizontal.jpeg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    padding-top: 40px;
+    /*background: rgb(68, 160, 7);*/
+}
+
+
+
+/*************************************************************
+************************ CONTACT *******************************
+*************************************************************/
+#theWhy{
+    background-image: url(./images/forestFog.jpeg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    padding-top: 40px;
+}
