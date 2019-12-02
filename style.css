@@ -89,7 +89,7 @@ a{
 *************************************************************/
 
 #about{
-    background-image: url(./images/forestHorizontal.jpeg);
+    background-image: url(forestHorizontal.jpeg);
     background-repeat:no-repeat;
     background-size: cover;
     padding-top: 40px;
@@ -102,7 +102,7 @@ a{
 ************************ CONTACT *******************************
 *************************************************************/
 #theWhy{
-    background-image: url(./images/forestFog.jpeg);
+    background-image: url(forestFog.jpeg);
     background-repeat:no-repeat;
     background-size: cover;
     padding-top: 40px;
