@@ -52,7 +52,7 @@ a{
 ************************ HOME *******************************
 *************************************************************/
 #home{
-    background-image: url(./images/morningSun.jpeg);
+    background-image: url(./morningSun.jpeg);
     background-repeat:no-repeat;
     background-size: cover;
     padding-top: 40px;
